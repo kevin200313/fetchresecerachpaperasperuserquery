@@ -1,0 +1,33 @@
+# IDE
+.vscode
+
+# Env
+.env
+
+# Build
+dist
+__pycache__
+*.egg-info/
+
+# Test
+playground
+samples/test.py
+tests.xml
+coverage.xml
+.pytest_cache
+.coverage
+
+# OS
+.DS_Store
+
+# Generated files
+*.pdf
+*.log
+*.bib
+
+# ignore pattern
+_ignore*
+
+# venv
+venv
+.venv
