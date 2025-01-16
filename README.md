@@ -265,43 +265,5 @@ $ findpapers download /some/path/search_paul.json /some/path/papers --selected -
 
 *And at the end of it, he decides to download the full-text from all the selected works (regardless of their categorization) and generate their BibTeX file too. And, as he is very happy with the results, he also wants to include a Findpapers entry in the BibTeX file to cite in his work.*
 
-```console
-$ findpapers download /some/path/search_paul.json /some/path/papers --selected --proxy "https://mccartney:super_secret_pass@liverpool.ac.uk:1234"
 
-$ findpapers bibtex /some/path/search_paul.json /some/path/mybib.bib --selected --findpapers
-```
-
-*That's all, folks! We have reached the end of our journey. I hope Dr. McCartney can continue his research and publish his work without any major problems now. You can use findpapers in a more scriptable way too. Check out the [search_paul.py](https://github.com/jonatasgrosman/findpapers/blob/master/samples/search_paul.py) file to see how you can do that.*
-
-As you could see, all the information collected and enriched by the Findpapers is placed in a single JSON file. From this file, it is possible to create interesting visualizations about the collected data ...
-
-![charts](https://github.com/jonatasgrosman/findpapers/raw/master/docs/charts.png)
-
-... So, use your imagination! (The [samples/charts.py](https://github.com/jonatasgrosman/findpapers/blob/master/samples/charts.py) script made the visualization above).
-
-With the story above, we cover all the commands available in Findpapers. I know this documentation is unconventional, but I haven't had time to write a more formal version of the documentation. But you can help us to improve this, take a look at the next section and see how you can do that.
-
-# Want to help?
-
-See the [contribution guidelines](https://github.com/jonatasgrosman/findpapers/blob/master/CONTRIBUTING.md)
-if you'd like to contribute to Findpapers project.
-
-You don't even need to know how to code to contribute to the project. Even the improvement of our documentation is an outstanding contribution.
-
-If this project has been useful for you, please share it with your friends. This project could be helpful for them too.
-
-If you like this project and want to motivate the maintainers, give us a :star:. This kind of recognition will make us very happy with the work that we've done with :heart:
-
-You can also [sponsor me](https://github.com/sponsors/jonatasgrosman) :heart_eyes:
-
-# Citation
-If you want to cite the tool you can use this:
-
-```bibtex
-@misc{grosman2020findpapers,
-  title={{Findpapers: A tool for helping researchers who are looking for related works}},
-  author={Grosman, Jonatas},
-  howpublished={\url{https://github.com/jonatasgrosman/findpapers}},
-  year={2020}
-}
 ```
